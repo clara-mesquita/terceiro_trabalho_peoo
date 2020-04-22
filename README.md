@@ -20,19 +20,19 @@ Enviado por professor Paulo Henrique.
 > 
 >3. Incremente a classe Televisão com os seguintes métodos:
 >
->     a) alterar volume: recebe como parâmetro se aumenta ou diminui. No primeiro caso, incrementa o volume da TV em 1 unidade, mas não pode ultrapassar o máximo. No segundo caso, decrementa o volume da TV em 1 unidade, mas não pode ultrapassar o mínimo.
+> a) Alterar volume: recebe como parâmetro se aumenta ou diminui. No primeiro caso, incrementa o volume da TV em 1 unidade, mas não pode ultrapassar o máximo. No segundo caso, decrementa o volume da TV em 1 unidade, mas não pode ultrapassar o mínimo.
 >
->    b) cadastrar canais: método abstrato.
+> b) Cadastrar canais: método abstrato.
 >
->    c) verificar canal existente: recebe como um parâmetro um canal e retorna verdadeiro, caso o canal já exista na programação da TV, e falso caso contrário.
+> c) Verificar canal existente: recebe como um parâmetro um canal e retorna verdadeiro, caso o canal já exista na programação da TV, e falso caso contrário.
 >
->     d) sintonizar: recebe como parâmetro um número, representando o canal da TV desejado, busca na lista de canais o canal com esse número e, caso exista, altera o canal atual para este.  Caso não exista, dispara uma exceção de canal inexistente (você deve criar essa exceção).
+> d) Sintonizar: recebe como parâmetro um número, representando o canal da TV desejado, busca na lista de canais o canal com esse número e, caso exista, altera o canal atual para este.  Caso não exista, dispara uma exceção de canal inexistente (você deve criar essa exceção).
 >
->     e) alterar canal: recebe como parâmetro “próximo” ou “anterior” e altera o canal atual de acordo com o parâmetro solicitado. Se o canal atual for o último da lista e for solicitado próximo canal, deve-se voltar ao início da lista. Já se for o primeiro canal e solicitar o anterior, deve-se pular para o último canal da lista.
+> e) Alterar canal: recebe como parâmetro “próximo” ou “anterior” e altera o canal atual de acordo com o parâmetro solicitado. Se o canal atual for o último da lista e for solicitado próximo canal, deve-se voltar ao início da lista. Já se for o primeiro canal e solicitar o anterior, deve-se pular para o último canal da lista.
 >
->     f) informar dados: mostra os dados do canal atual (nome, número e se é HD) e do volume. 
+> f) Informar dados: mostra os dados do canal atual (nome, número e se é HD) e do volume. 
 >
->     g) mostrar grade: apresenta a lista ordenada por número de canais disponíveis, mostrando todos os dados de cada canal.
+> g) Mostrar grade: apresenta a lista ordenada por número de canais disponíveis, mostrando todos os dados de cada canal.
 >
 >4. Crie as classes SmartTV e TVHD que especializam a Televisão. A primeira possui como atributo a quantidade de polegadas, enquanto a segunda possui como atributo o modelo de TV (LED, Plasma, HD). Crie um construtor para cada uma para inicializar seus atributos. A SmartTV implementa o método de cadastrar canais inserindo na lista de canais todos os canais existentes na lista de canais disponíveis e, ao final, seta como canal atual o primeiro da lista.  A segunda classe cadastra novos canais apenas se eles forem HD e, ao final, seta como canal atual o último da lista.
 >5. Crie uma classe ControleRemoto que pode manipular uma lista de televisões, sejam elas SmartTvs ou TVHDs (use polimorfismo, ou seja, considere todas do tipo Televisão), ao mesmo tempo. Portanto, o controle tem como atributo a lista de TVs que ele controla. Crie um método para adicionar TV, que recebe um objeto do tipo Televisão e o adiciona na lista de TVs apenas se a TV não estiver cadastrada. Se já estiver, dispare uma exceção de TV já cadastrada. Essa classe também disponibiliza ao usuário as seguintes funcionalidades da TV por meio de métodos (que simulam os botões do controle físico): aumentar volume, diminuir volume, sintonizar canal específico, próximo canal, canal anterior, informar dados, e mostrar grade. 
