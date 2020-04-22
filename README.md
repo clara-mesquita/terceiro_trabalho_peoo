@@ -31,6 +31,7 @@ Enviado por professor Paulo Henrique.
 >5. Crie uma classe ControleRemoto que pode manipular uma lista de televisões, sejam elas SmartTvs ou TVHDs (use polimorfismo, ou seja, considere todas do tipo Televisão), ao mesmo tempo. Portanto, o controle tem como atributo a lista de TVs que ele controla. Crie um método para adicionar TV, que recebe um objeto do tipo Televisão e o adiciona na lista de TVs apenas se a TV não estiver cadastrada. Se já estiver, dispare uma exceção de TV já cadastrada. Essa classe também disponibiliza ao usuário as seguintes funcionalidades da TV por meio de métodos (que simulam os botões do controle físico): aumentar volume, diminuir volume, sintonizar canal específico, próximo canal, canal anterior, informar dados, e mostrar grade. 
 >
 >**OBS:** Esse item (6) não pede pro controle ter a função de cadastrar canais.
+>
 >6. Crie uma classe Principal na qual vários canais são criados (varie entre HDs e não HDs).Em seguida, crie pelo menos 2 TVs (uma de cada tipo), e cadastre os canais criados. Crie um objeto do controle remoto, associe a ele as TVs criadas, e ofereça ao usuário um menu com as opções disponíveis. Toda vez que o usuário escolhe uma opção, o método correspondente nas TVs é executado e o resultado é apresentado no console.
 
 ### Informações sobre a pasta "código":
