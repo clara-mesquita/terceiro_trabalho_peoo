@@ -19,7 +19,9 @@ Enviado por professor Paulo Henrique.
 >2. Crie uma classe Televisão que contém como atributos um id (pode ser o nome do fabricante e um número de modelo qualquer, ex: LG345), o volume, o canal atual, uma lista de canais cadastrados, e uma lista de canais disponíveis. Crie uma constante com o volume máximo = 10 e outra com o volume mínimo = 0. Crie um construtor que receba como parâmetro a lista de canais disponíveis, atribua-a à sua lista interna, e configure o volume para 5. Crie métodos de get e set para o volume e para canal atual.
 > 
 >3. Incremente a classe Televisão com os seguintes métodos:
+>
 > a) alterar volume: recebe como parâmetro se aumenta ou diminui. No primeiro caso, incrementa o volume da TV em 1 unidade, mas não pode ultrapassar o máximo. No segundo caso, decrementa o volume da TV em 1 unidade, mas não pode ultrapassar o mínimo.
+>
 > b) cadastrar canais: método abstrato.
 >
 > c) verificar canal existente: recebe como um parâmetro um canal e retorna verdadeiro, caso o canal já exista na programação da TV, e falso caso contrário.
