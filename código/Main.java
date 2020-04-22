@@ -94,7 +94,8 @@ public class Main  {
                 }
             }
             
-            //aumentar o volume da televisao escolhida pelo usuario
+            //o controle só altera a tv que o usuario selecionar
+            //diminuir o volume da televisao escolhida pelo usuario
             else if (loop == 2){
                 System.out.println("\nEssas sao as ids das televisoes ja cadastradas: ");
                 universal.getTvs();
