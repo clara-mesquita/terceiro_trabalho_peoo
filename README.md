@@ -9,7 +9,7 @@
 | Maria Clara Mesquita |  1514909  |  clara.mesquita@aluno.uece.br |
 | Danielle Santos      |  1514780  | danielle.santos@aluno.uece.br |
 
-### Trabalho da Implementação da Televião e Controle Remotos
+### Trabalho da Implementação da Televisão e Controle Remotos
 Enviado por professor Paulo Henrique.
 
 > Este trabalho é a continuação do exercício sobre implementação da televisão e controle remotos passado em classe, porém com algumas alterações.
